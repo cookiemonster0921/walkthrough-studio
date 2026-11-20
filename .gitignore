@@ -1,0 +1,12 @@
+node_modules/
+captures/
+projects/
+exports/
+.profiles/
+*.webm
+*.mp4
+*.wav
+*.mp3
+.DS_Store
+.env*
+!*.example

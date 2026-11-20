@@ -1,0 +1,16 @@
+{
+  "name": "walkthrough-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local screenshot-to-walkthrough video studio with editable scene manifests and optional browser capture.",
+  "scripts": {
+    "test": "node --test",
+    "serve": "node scripts/serve.cjs",
+    "check": "node scripts/check-project.cjs",
+    "capture": "node capture/playwright.mjs",
+    "convert": "node scripts/convert.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

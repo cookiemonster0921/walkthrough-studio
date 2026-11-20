@@ -1,0 +1,7 @@
+{
+  "title": "Authorised application walkthrough",
+  "startUrl": "http://127.0.0.1:4173/studio/",
+  "steps": [
+    {"id":"overview","title":"Open your project","duration":5,"actions":[{"type":"waitFor","selector":"h1"}],"targets":[{"selector":"h1","label":"Example target — replace with your application selectors"}]}
+  ]
+}
